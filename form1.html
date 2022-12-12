@@ -6,53 +6,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=., initial-scale=1.0">
     <title>Payment form</title>
-    <link rel="stylesheet" href="style.css" </head>
+    <link rel="stylesheet" href="form1.css">
+</head>
 
-    <body>
-        <div class="container">
-            <form action="" method="get">
-                <h1>Payment Form</h1>
-                <hr>
-                <h2>User Information</h2>
-                <p>Name:
-                    <input type="text" required name="name" placeholder="Payal Meena"></p>
+<body>
+    <div class="container">
+        <form action="" method="get">
+            <h1>Payment Form</h1>
+            <hr>
+            <h2>User Information</h2>
+            <p>Name:
+                <input type="text" required name="name" placeholder="Payal Meena"></p>
 
-                <fieldset>
-                    <legend>Gender</legend>
-                    <p>
-                        Male: <input type="radio" name="Gender " id="male"> Female: <input type="radio" name="Gender " id="female"></p>
-                </fieldset>
+            <fieldset>
+                <legend>Gender</legend>
                 <p>
-                    Address: <textarea name="address" id="address" placeholder="ab nagar " cols="80" rows="8"></textarea></p>
-                <p>
-                    Email: <input type="email" name="email" id="email" placeholder="abc@gmail.com"> </p>
-                <p>
-                    Pincode: <input type="number" name="pincode" placeholder="1234560" id="pincode"></p>
+                    Male: <input type="radio" name="Gender " id="male"> Female: <input type="radio" name="Gender " id="female"></p>
+            </fieldset>
+            <p>
+                Address: <textarea name="address" id="address" placeholder="ab nagar " cols="80" rows="8"></textarea></p>
+            <p>
+                Email: <input type="email" name="email" id="email" placeholder="abc@gmail.com"> </p>
+            <p>
+                Pincode: <input type="number" name="pincode" placeholder="1234560" id="pincode"></p>
 
-                <h2>Payment Information</h2>
+            <h2>Payment Information</h2>
 
-                <p>Card Type:
-                    <select name="card type" id="card type" required>
+            <p>Card Type:
+                <select name="card type" id="card type" required>
             <option value="">--Select a card type-</option>
             <option value="visaa">visa</option>
             <option value="rupay">rupay</option>
             <option value="master card">Master card</option>
         </select></p>
 
-                <p>
-                    Card Number <input type="number" name="card_number" id="card_number" placeholder="xxxxxxxxxx">
-                </p>
-                <p>
-                    Expiration Date: <input type="date" name="exp_date" id="exp_date" placeholder="dd/mm/yy"></p>
-                <p>
-                    CVV <input type="password" name="CVV" id="CVV" placeholder="123"></p>
-                <input type="submit" value="pay now">
+            <p>
+                Card Number <input type="number" name="card_number" id="card_number" placeholder="xxxxxxxxxx">
+            </p>
+            <p>
+                Expiration Date: <input type="date" name="exp_date" id="exp_date" placeholder="dd/mm/yy"></p>
+            <p>
+                CVV <input type="password" name="CVV" id="CVV" placeholder="123"></p>
+            <input type="submit" value="pay now">
 
 
-        </div>
+    </div>
 
 
-        </form>
-    </body>
+    </form>
+</body>
 
 </html>
